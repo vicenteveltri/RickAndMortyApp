@@ -29,7 +29,7 @@ To run this project, clone the repo, and open the `.xcodeproj` file in Xcode:
 
 ```bash
 git clone https://github.com/vicenteveltri/RickAndMortyApp.git
-cd rick-and-morty-app
+cd RickAndMortyApp
 open RickAndMortyApp.xcodeproj
 ```
 
