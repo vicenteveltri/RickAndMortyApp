@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6079F85E2CD3FAA000E6C094 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6079F85D2CD3FAA000E6C094 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6079F8352CD3EDC600E6C094 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6079F85E2CD3FAA000E6C094 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = RickAndMortyApp;
 			packageProductDependencies = (
+				6079F85D2CD3FAA000E6C094 /* Kingfisher */,
 			);
 			productName = RickAndMortyApp;
 			productReference = 6079F8242CD3EDC500E6C094 /* RickAndMortyApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 6079F81B2CD3EDC500E6C094;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6079F85C2CD3FAA000E6C094 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6079F8252CD3EDC500E6C094 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6079F85C2CD3FAA000E6C094 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6079F85D2CD3FAA000E6C094 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6079F85C2CD3FAA000E6C094 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6079F81C2CD3EDC500E6C094 /* Project object */;
 }
