@@ -28,7 +28,7 @@ This iOS application showcases a list of characters from the popular TV show "Ri
 To run this project, clone the repo, and open the `.xcodeproj` file in Xcode:
 
 ```bash
-git clone https://github.com/vicenteveltri/rick-and-morty-app.git
+git clone [https://github.com/vicenteveltri/RickAndMortyApp.git](https://github.com/vicenteveltri/RickAndMortyApp.git)
 cd rick-and-morty-app
 open RickAndMortyApp.xcodeproj
 ```
