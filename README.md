@@ -31,3 +31,10 @@ To run this project, clone the repo, and open the `.xcodeproj` file in Xcode:
 git clone https://github.com/vicenteveltri/rick-and-morty-app.git
 cd rick-and-morty-app
 open RickAndMortyApp.xcodeproj
+```
+
+## Screenshots
+
+Home | Detail
+-|-
+![Home](https://github.com/user-attachments/assets/11d0b5ec-1107-4da4-a645-1bc732b22466)|![Detail](https://github.com/user-attachments/assets/034485b7-889a-4ead-99c6-45bc87ab9df5)
